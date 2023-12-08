@@ -1,0 +1,15 @@
+
+<script>
+    let saleprice = parseFloat(prompt("Enter the sale price"));
+let costprice = parseFloat(prompt("Enter the cost price"));
+
+if (saleprice > costprice) {
+    let profit = saleprice - costprice;
+    console.log("Profit: " + profit);
+} else if (costprice > saleprice) {
+    let loss = costprice - saleprice;
+    console.log("Loss: " + loss);
+} else {
+    console.log("No Profit No Loss");
+}
+</script>
